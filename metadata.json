@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "defaultFile": "contracts/Loop.sol",
+  "environment": "solidity",
+  "setupCommands": ["npm i", "npx hardhat compile"],
+  "compileCommand": "npx hardhat compile",
+  "tests": [
+    { "itShould": "Compile", "command": "sh learn_tests/21.sh" }
+  ],
+  "learnerAccessibleFileList": ["contracts/*"]
+}
